@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    grape-kaminari (0.4.1)
+    grape-kaminari (0.4.2)
       grape (>= 1.6.1, != 1.4.0)
       kaminari-grape
 
@@ -44,7 +44,7 @@ GEM
       rack-accept
     i18n (1.8.11)
       concurrent-ruby (~> 1.0)
-    kaminari-core (1.2.1)
+    kaminari-core (1.2.2)
     kaminari-grape (1.0.1)
       grape
       kaminari-core (~> 1.0)
@@ -125,4 +125,4 @@ DEPENDENCIES
   rubocop-bsm
 
 BUNDLED WITH
-   2.2.32
+   2.1.4

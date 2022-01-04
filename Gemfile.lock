@@ -8,14 +8,15 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.0.0)
+    activesupport (6.1.3.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
+      zeitwerk (~> 2.3)
     ast (2.4.2)
     builder (3.2.4)
-    concurrent-ruby (1.1.9)
+    concurrent-ruby (1.1.8)
     diff-lcs (1.4.4)
     dry-configurable (0.13.0)
       concurrent-ruby (~> 1.0)
@@ -42,13 +43,13 @@ GEM
       mustermann-grape (~> 1.0.0)
       rack (>= 1.3.0)
       rack-accept
-    i18n (1.8.11)
+    i18n (1.8.10)
       concurrent-ruby (~> 1.0)
     kaminari-core (1.2.2)
     kaminari-grape (1.0.1)
       grape
       kaminari-core (~> 1.0)
-    minitest (5.15.0)
+    minitest (5.14.4)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     mustermann-grape (1.0.1)
@@ -112,6 +113,7 @@ GEM
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.0.0)
+    zeitwerk (2.4.2)
 
 PLATFORMS
   ruby
@@ -125,4 +127,4 @@ DEPENDENCIES
   rubocop-bsm
 
 BUNDLED WITH
-   2.1.4
+   2.2.32
